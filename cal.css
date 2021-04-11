@@ -1,0 +1,90 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+     background-color: black; 
+}
+#container{
+    width: 1000px;
+    height: 550px;
+    background-image:url(sc3.jpg);
+    margin: 50px auto;
+}
+#cals{
+    width: 320px;
+    height: 540px;
+    background-color: darkgrey;
+    float: right;
+    margin: 5px 50px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 darkslategray, 0 4px 6px 0 darkslategrey;
+  }
+  #res{
+    height: 120px;
+    margin-top: -10px;
+}
+#his{
+    text-align: right;
+    height: 40px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color:rgb(28, 27, 31);
+}
+#his-val{
+    margin: 10px 10px;
+}
+#output{
+   position: relative;
+   top: -60px;
+   text-align: right;
+   height: 20px;
+   margin: 10px 10px;
+   font-size: 25px;
+}
+#val1{
+            background-color: lightblue;
+            height: 100px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 darkslategray, 0 4px 6px 0 darkslategrey;
+}
+#keys{
+    height: 400px;
+    padding-top: 40px;
+}
+.op, .num{
+    width: 45px;
+    height: 45px;
+    margin:15px;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.num, .op{
+    cursor: pointer;
+}
+.op:active, .num:active{
+    font-size: 15px;
+}
+.op:focus, .num:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: lightseagreen;
+}
+button:nth-child(8){
+  font-size: 20px;
+  background-color:darkorange;
+}
+button:nth-child(12){
+  font-size: 20px;
+  background-color:darksalmon;
+}
+button:nth-child(16){
+  font-size: 20px;
+  background-color:darkviolet;
+}
+button:nth-child(20){
+  font-size: 20px;
+  background-color:hotpink;
+}
